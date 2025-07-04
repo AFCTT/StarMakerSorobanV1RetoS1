@@ -11,7 +11,6 @@ impl Contract {
         //Implementar función que sume dos números
         let resultado = a + b;
         env.storage().persistent().set(&RESULTADO, &resultado);
-        resultado;
         return 30;
     }
 
